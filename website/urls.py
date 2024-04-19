@@ -11,7 +11,5 @@ urlpatterns = [
     path('', index_view, name='index'),
     path('about', about_view, name='about'),
     path('contact', contact_view, name='contact'),
-    path('blog-home', contact_view, name='blog-home'),
-    path('blog-single', contact_view, name='blog-single'),
-     path('elements', contact_view, name='elements'),
+    path('elements', element_view, name='elements'),
 ]

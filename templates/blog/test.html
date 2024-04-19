@@ -1,0 +1,51 @@
+  {% extends "base.html" %}
+  {% load static %}
+  {% block content %}
+
+
+  			<section class="banner-area relative">
+				<div class="overlay overlay-bg"></div>
+				<div class="container" >
+					<div class="row fullscreen align-items-center justify-content-between">
+						<div class="col-lg-6 col-md-6 banner-left">
+							<h1 class="text-white text-right" >مدرسه</h1>
+
+							
+                            <table class="table table-hover">
+                              <h2 class="text-white">counted_views: {{post}}</h2>
+                              <thead>
+                                <tr class="text-white">
+                                  <th>Firstname</th>
+                                  <th>Lastname</th>
+                                  <th>Email</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr class="text-white">
+                                  <td>{{Firstname}}</td>
+                                  <td>{{Lastname}}</td>
+                                  <td>{{Email}}</td>
+                                </tr>
+                              </tbody>
+                            </table>
+
+						</div>
+
+
+                              <div class="mt-4 p-5 bg-success text-white rounded">
+                                  test
+                              </div>
+
+					</div>
+				</div>
+			</section>
+
+  {% endblock %}
+
+
+
+
+
+
+
+
